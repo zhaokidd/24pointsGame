@@ -38,6 +38,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //将service改造成一个前台服务
+        
         startButton=(Button)findViewById(R.id.Start_services);
         stopButton =(Button)findViewById(R.id.Stop_services);
         bindButton =(Button)findViewById(R.id.Bind_service);
