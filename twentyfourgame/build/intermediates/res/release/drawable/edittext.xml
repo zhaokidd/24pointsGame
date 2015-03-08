@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="1px"
+        android:color="@android:color/holo_blue_light">
+    </stroke>
+    <solid
+        android:color="@android:color/holo_blue_light">
+    </solid>
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="12dp">
+        </padding>
+</shape><!-- From: file:/D:/ANDROIDPROJECT/MyApplication1/twentyfourgame/src/main/res/drawable/edittext.xml -->

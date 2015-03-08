@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="4"
+
+    android:layout_marginTop="30dp"
+    android:background="#B0E0E6">
+    <Button
+        android:layout_marginLeft="26dp"
+        android:text="+"
+        android:id="@+id/button_add"/>
+    <Button
+        android:text="-"
+        android:id="@+id/button_sub"/>
+    <Button
+        android:text="*"
+        android:id="@+id/button_multiple"/>
+    <Button
+        android:text="/"
+        android:id="@+id/button_divide"/>
+    <Button
+        android:layout_marginLeft="26dp"
+        android:text=")"
+        android:id="@+id/button_right"/>
+    <Button
+        android:text="("
+        android:id="@+id/button_left"/>
+    <Button
+        android:text="del"
+        android:id="@+id/button_delete"/>
+
+</GridLayout>
+<!-- From: file:/D:/ANDROIDPROJECT/MyApplication1/twentyfourgame/src/main/res/layout/keyboard_layout.xml -->
